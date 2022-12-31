@@ -1,0 +1,23 @@
+<body align= "center">
+    <form name="form1" action="" method="post">
+        <table width="300px" height="150px" style="background-color: aquamarine;" align="center">
+        <tr>
+            <td>Angka1</td>
+            <td><input type="number" id="angka1"></td>
+        </tr>
+        <tr>
+            <td>Angka2</td>
+            <td><input type="number" id="angka2"></td>
+        </tr>
+        <tr>
+            <td>
+            <input type="submit" value="+" onClick="tambah()">
+            <input type="submit" value="-" onClick="kurang()">
+            <input type="submit" value="x" onClick="kali()">
+            <input type="submit" value=":" onClick="bagi()">
+            </td>
+        </tr>
+        </table>
+</form>
+</body>
+</html>
